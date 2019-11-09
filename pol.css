@@ -1,0 +1,40 @@
+body{
+background-color: #400201;
+}
+.pat {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: none;
+  padding: 10px;
+  
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+    border-radius: 50px;
+}
+
+.item1 h1,a{
+color: white;
+    
+  font-size: 25px;
+}
+.kil {
+    padding: 15px;
+    text-align: center;
+    height: 150px;
+    background-color: #010940;
+    color: white;
+    font-size: 25px;
+    border: 5px solid none;
+border-radius: 40px 0px 40px 0px;
+    -webkit-box-shadow: 24px 23px 45px 0px rgba(0,4,82,1);
+-moz-box-shadow: 24px 23px 45px 0px rgba(0,4,82,1);
+box-shadow: 24px 23px 45px 0px rgba(0,4,82,1);
+}
+.item1 h1{
+    background-color: #010940;
+    height: 30px;
+}
